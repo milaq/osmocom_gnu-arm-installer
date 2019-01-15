@@ -1,0 +1,28 @@
+--- src/gcc-4.5.2/gcc/doc/gcc.texi     2009-07-16 22:36:10.000000000 +0200
++++ src/gcc-4.5.2.new/gcc/doc/gcc.texi 2019-01-02 19:37:28.900647710 +0100
+@@ -86,9 +86,15 @@
+ @item GNU Press
+ @tab Website: www.gnupress.org
+ @item a division of the
+-@tab General: @tex press@@gnu.org @end tex
++@tab General: 
++@tex 
++press@@gnu.org 
++@end tex
+ @item Free Software Foundation
+-@tab Orders:  @tex sales@@gnu.org @end tex
++@tab Orders:  
++@tex 
++sales@@gnu.org 
++@end tex
+ @item 51 Franklin Street, Fifth Floor
+ @tab Tel 617-542-5942
+ @item Boston, MA 02110-1301 USA
+@@ -108,6 +114,7 @@
+ @sp 1
+ @insertcopying
+ @end titlepage
++
+ @summarycontents
+ @contents
+ @page
