@@ -13,13 +13,9 @@ This version of the installer was tested with Ubuntu. Debian should work also. B
 <h3>Installation</h3>
 Make sure that you already have installed following packages: <i>build-essential libgmp3-dev libmpfr-dev libx11-6 libx11-dev flex bison libncurses5 libncurses5-dbg libncurses5-dev libncursesw5 libncursesw5-dbg libncursesw5-dev zlibc zlib1g-dev libmpfr4 libmpc-dev</i>.
 
-1. Download the latest installer:
-	```bash
-	git clone https://github.com/axilirator/gnu-arm-installer.git
-	cd gnu-arm-installer
-	```
+1. Clone this repository.
 
-2. Run this scripts:
+2. Download and build the toolchain:
 	```bash
 	./download.sh
 	./build.sh
